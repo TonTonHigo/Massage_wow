@@ -1,0 +1,82 @@
+/* charte nul 
+gris nul: #abb8c3
+orange nul: rgb(251,105,98)
+bleu chiasse: rgb(74,234,220)*/
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+#header_nul{
+    position: fixed;
+    width: 100%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+#logo{
+    width: 200px;
+}
+.lienmenu{
+    margin-left: 5%;
+    
+}
+.lien_nul{
+    color: #abb8c3;
+    text-decoration: none;
+
+}
+
+#bouton_nul{
+    border: none;
+    background-color: rgb(251,105,98);
+    padding: 20%;
+    transition: 1s;
+}
+#bouton_nul:hover{
+    background-color: rgb(74,234,220);
+}
+
+#headbar{
+    width: 100%;
+    height: 1px;
+    background-color: #abb8c3;
+}
+
+
+
+
+/* main */
+.section{
+    margin: 0% 10%;
+    padding-top: 20%;
+}
+
+#sect1{
+    background-image:url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/* footer de ces morts */
+footer{
+    background-image: url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage16.jpg");
+}
+
+#fin_page{
+    display: flex;
+    margin: 10%;
+}
+
+#barre_blanc{
+    width: 100%;
+    height: 2px;
+}
