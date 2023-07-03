@@ -7,7 +7,7 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,6 +28,7 @@
     <main> 
     <section id="sect1" >
         <div class="section">
+            <!-- WELCOME IN BEAUTY PARADISE -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
@@ -41,6 +42,194 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
         </div>
+    </section>
+
+    <section id="sect2">
+
+        <!-- what we do OUR SERVICES -->
+        <div>
+            <div>
+                <p></p>
+                <p></p>
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage12.jpg" alt=""> <!-- image en fond pas en dur comme ça -->
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage33.jpg" alt=""> <!-- image en fond pas en dur comme ça -->
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage32.jpg" alt=""> <!-- image en fond pas en dur comme ça -->
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- what makes us unique WHY TO CHOOSE OUR SALON -->
+        <div>
+            <p></p>
+            <p></p>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage18.png" alt="">
+            </div>
+        </div>
+
+        <!-- barre rose nul -->
+        <div>
+            <div>
+                <h1></h1>
+                <button></button>
+            </div>
+        </div>
+
+        <!-- Introducing Massage Studio -->
+        <div>
+            <div>
+                <h2></h2>
+                <hr>
+                <p></p>
+            </div>
+            <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage35-1.jpg" alt="">
+        </div>
+
+        <!-- 5 cartes  -->
+        <div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon08.png" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon01.png" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon03.png" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon04.png" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon10.png" alt="">
+                <h2></h2>
+                <p></p>
+            </div>
+        </div>
+
+        <!-- You Deserve Your Time! -->
+        <div>
+            <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage39.jpg" alt="">
+            <div>
+                <h2></h2>
+                <hr>
+                <p></p>
+            </div>
+        </div>
+
+        <!-- magazine OUR BEUATY BLOG 3 cartes -->
+        <div> 
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage21-400x250.jpg" alt="">
+                <h3></h3>
+                <p></p>
+                <button></button>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage20-400x250.jpg" alt="">
+                <h3></h3>
+                <p></p>
+                <button></button>
+            </div>
+            <div>
+                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage07-400x250.jpg" alt="">
+                <h3></h3>
+                <p></p>
+                <button></button>
+            </div>
+        </div>
+
+        <!-- meet our team OUR AWESOME MASSEURS 4 cartes -->
+        <div>
+            
+            <!-- Carte -->
+            <div> 
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage18.png" alt="">
+                </div>
+                <h2></h2>
+                <p></p>
+                <div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+            <div> 
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage37-1.png" alt="">
+                </div>
+                <h2></h2>
+                <p></p>
+                <div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+            <div> 
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage35-1-1.png" alt="">
+                </div>
+                <h2></h2>
+                <p></p>
+                <div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+            <div> 
+                <div>
+                    <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage38.png" alt="">
+                </div>
+                <h2></h2>
+                <p></p>
+                <div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+
+        </div>
+
     </section>
 
     </main>

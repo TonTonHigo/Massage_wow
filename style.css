@@ -1,11 +1,15 @@
-/* charte nul 
+/* 
+charte nul :
 gris nul: #abb8c3
 orange nul: rgb(251,105,98)
-bleu chiasse: rgb(74,234,220)*/
+bleu chiasse: rgb(74,234,220)
+https://massage-theme.richardpruzek.com/#services
+*/
 
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #F6F7F9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
