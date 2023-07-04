@@ -54,6 +54,23 @@ html,body {
     width: 100%;
     height: 1px;
 }
+#titre{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Main */
 main{
@@ -62,6 +79,12 @@ main{
 .section {
     margin: 0% 25%;
     padding-top: 296px;
+    color:white;
+}
+.section button{
+    color: white;
+    background-color: rgb(74, 234, 220);
+    padding: 15px 30px;
 }
 
 #logo2 {
@@ -75,6 +98,21 @@ main{
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
@@ -96,6 +134,16 @@ footer {
 #barrebas{
     border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Additional Changes */
 #bouton_nul {

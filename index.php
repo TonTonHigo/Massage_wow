@@ -53,9 +53,11 @@
             <div class="section">
                 <!-- WELCOME IN BEAUTY PARADISE -->
                 <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon05.png" alt="" id="logo2">
-                <h1>WELCOME <br>
+                <h1 id="titre">WELCOME <br>
                 IN BEAUTY PARADISE</h1>
-                <p></p>
+                <p>In publishing and graphic design, lorem <br>
+                ipsum is common to cry</p>
+                <button>BOOK A MASSAGE</button>
             </div>
         </section>
 
