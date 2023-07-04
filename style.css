@@ -1,87 +1,113 @@
-/* 
-charte nul :
-gris nul: #abb8c3
-orange nul: rgb(251,105,98)
-bleu chiasse: rgb(74,234,220)
-https://massage-theme.richardpruzek.com/#services
-*/
-
-body{
+body {
     margin: 0;
     background-color: #F6F7F9;
     font-family: 'Montserrat', sans-serif;
 }
 
-/* header */
-#header_nul{
+/* Header */
+#header_nul {
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1% 1%;
 }
-#menu{
+
+#menu {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    list-style: none;
 }
-#lienhead{
+
+#lienhead {
     display: flex;
     align-items: center;
     list-style: none;
 }
-#logo{
-    width: 200px;
+
+#logo {
+    height: 70px;
 }
 
-.lien_nul{
+.lien_nul {
     color: #abb8c3;
     text-decoration: none;
 }
 
-.lilili{
-    margin-left: 20px;
+.lilili {
+    margin-right: 20px;
 }
 
-#bouton_nul{
+#bouton_nul {
     border: none;
-    background-color: rgb(251,105,98);
+    background-color: rgb(251, 105, 98);
     transition: 1s;
-}
-#bouton_nul:hover{
-    background-color: rgb(74,234,220);
+    padding: 30%;
 }
 
-#headbar{
-    width: 100%;
-    height: 1px;
-    background-color: #abb8c3;
+#bouton_nul:hover {
+    background-color: rgb(74, 234, 220);
 }
-#barre_blanc{
+
+#barre_blanc {
     width: 100%;
     height: 1px;
 }
 
-
-
-
-/* main */
-.section{
-    margin: 0% 10%;
-    padding-top: 20%;
+/* Main */
+.section {
+    margin: 0% 25%;
+    padding-top: 296px;
 }
 
-#sect1{
-    background-image:url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage26.jpg");
+#logo2 {
+    width: 80px;
+}
+
+#sect1 {
+    background-image: linear-gradient(93deg, #2F2E2D 24%, rgba(41, 196, 169, 0) 100%), url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage26.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 100%;
 }
 
-
-/* footer de ces morts */
-footer{
+/* Footer */
+footer {
     background-image: url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage16.jpg");
 }
 
-#fin_page{
+#fin_page {
     display: flex;
     margin: 10%;
 }
+
+/* Additional Changes */
+#bouton_nul {
+    color: white;
+    font-weight: bold;
+}
+
+.lien_nul:hover {
+    color: rgb(74, 234, 220);
+}
+
+#barre_blanc {
+    background-color: white;
+}
+
+/* Custom Colors */
+.gris_nul {
+    color: #abb8c3;
+}
+
+.orange_nul {
+    background-color: rgb(251, 105, 98);
+}
+
+.bleu_chiasse {
+    background-color: rgb(74, 234, 220);
+}
+
+
+
+/* section 2 */
