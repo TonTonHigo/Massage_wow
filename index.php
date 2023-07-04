@@ -8,21 +8,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header id="header_nul">
         <nav id="menu">
-            <li class="lienmenu"><a class="lien_nul" href="#"><img id="logo" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/04/massage_logo_header-1.png"></a></li>
-            <div id="lienhead">
-                <li class="lilili"><a class="lien_nul" href="#"> HOMEPAGE <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a></li>
-                <li class="lilili"><a class="lien_nul" href="#">ABOUT US  <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a></li>
-                <li class="lilili"><a class="lien_nul" href="#"> PAGES & PROJECTS <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a></li>
-                <li class="lilili"><a class="lien_nul" href="#"> BLOG <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a></li>
-                <li class="lilili"> <button id="bouton_nul"> CONTACT</button>  </li>
-            </div>
+            <ul>
+                <li class="lienmenu"><a class="lien_nul lilili" href="#"><img id="logo" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/04/massage_logo_header-1.png"></a></li>
+            </ul>
+            <ul id="lienhead">
+
+                <li >
+                    <a class="lien_nul lilili" href="#"> HOMEPAGE <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
+                </li>
+                <li>
+                <a class="lien_nul lilili" href="#">ABOUT US  <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
+
+                </li>
+                <li>
+                <a class="lien_nul lilili" href="#"> PAGES & PROJECTS <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
+
+                </li>
+                <li>
+                <a class="lien_nul lilili" href="#"> BLOG <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
+
+                </li>
+                <li>
+                 <button id="bouton_nul" class="lilili"> CONTACT</button>  
+
+                </li>
+
+            </ul>
+
         </nav>
         <div id="headbar"></div>
     </header>
@@ -105,7 +126,7 @@
                     <hr>
                     <p></p>
                 </div>
-                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage35-1.jpg" alt="">
+                <!-- <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage35-1.jpg" alt=""> -->
             </div>
 
             <!-- 5 cartes  -->
@@ -139,10 +160,9 @@
 
             <!-- You Deserve Your Time! -->
             <div>
-                <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage39.jpg" alt="">
+                    <!-- <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage39.jpg" alt=""> -->
                 <div>
                     <h2></h2>
-                    <hr>
                     <p></p>
                 </div>
             </div>
@@ -218,7 +238,6 @@
                     <div>
                         <li></li>
                         <li></li>
-                        <li></li>
                     </div>
                 </div>
 
@@ -231,46 +250,47 @@
     
 
     <footer>
-
-        <div id="fin_page">
-
-            <ul>
-                <li><h3>MASSAGE TYPES</h3></li>
-                <li><a href="">Sport Massage</a></li>
-                <li><a href="">Baby Massage</a></li>
-                <li><a href="">Thai Massage</a></li>
-                <li><a href="">Classic Massage</a></li>
-                <li><a href="">Physiotherapy</a></li>
-                <li><a href="">Physiotherapy</a></li>       
-            </ul>
-
-            <ul>
-                <li><h3>ABOUT US</h3></li>
-                <li><a href="">Our Masseurs</a></li>
-                <li><a href=""> Our Clients</a></li>
-                <li><a href="">Our Values</a></li>
-                <li><a href="">Photogallery</a></li>
-                <li><a href="">Our Philosophy</a></li>
-                <li><a href="">Our 2020 Goals</a></li>   
-            </ul>
-
-            <ul>
-                <li><h3>CONTACT US</h3></li>
-                <li><p>+49 8568 523 525</p><p>+43 8568 856 235</p></li>
-                <li><p>info@massage.com</p><p>hello@myspa.de</p></li>
-                <li><p>info@massage.com</p><p>helo@myspa.de</p></li>                  
-            </ul>
-
-            <ul>
-                <li><h3>SUBSCRIBE</h3></li>
-                <li><input type="text" placeholder="NAME"></li>
-                <li><input type="email" placeholder="EMAIL"></li>
-                <li><input type="submit" placeholder="SUBSCRIBE"></li>             
-            </ul>
-            
-        </div>
-        <div id="barre_blanc"></div>
         <div>
+            <div id="fin_page">
+    
+                <ul class="ulbas">
+                    <li><h3>MASSAGE TYPES</h3></li>
+                    <li><a href="">Sport Massage</a></li>
+                    <li><a href="">Baby Massage</a></li>
+                    <li><a href="">Thai Massage</a></li>
+                    <li><a href="">Classic Massage</a></li>
+                    <li><a href="">Physiotherapy</a></li>
+                    <li><a href="">Physiotherapy</a></li>       
+                </ul>
+    
+                <ul class="ulbas">
+                    <li><h3>ABOUT US</h3></li>
+                    <li><a href="">Our Masseurs</a></li>
+                    <li><a href=""> Our Clients</a></li>
+                    <li><a href="">Our Values</a></li>
+                    <li><a href="">Photogallery</a></li>
+                    <li><a href="">Our Philosophy</a></li>
+                    <li><a href="">Our 2020 Goals</a></li>   
+                </ul>
+    
+                <ul class="ulbas">
+                    <li><h3>CONTACT US</h3></li>
+                    <li><p>+49 8568 523 525</p><p>+43 8568 856 235</p></li>
+                    <li><p>info@massage.com</p><p>hello@myspa.de</p></li>
+                    <li><p>info@massage.com</p><p>helo@myspa.de</p></li>                  
+                </ul>
+    
+                <ul class="ulbas">
+                    <li><h3>SUBSCRIBE</h3></li>
+                    <li><input type="text" placeholder="NAME"></li>
+                    <li><input type="email" placeholder="EMAIL"></li>
+                    <li><input type="submit" placeholder="SUBSCRIBE"></li>             
+                </ul>
+                
+            </div>
+        </div>
+        
+        <div id="barrebas">
         </div>
 
     </footer>

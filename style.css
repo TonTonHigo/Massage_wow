@@ -1,4 +1,4 @@
-body {
+html,body {
     margin: 0;
     background-color: #F6F7F9;
     font-family: 'Montserrat', sans-serif;
@@ -9,12 +9,14 @@ body {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 1% 1%;
 }
 
 #menu {
     display: flex;
     justify-content: space-between;
+    list-style: none;
+}
+.lienmenu{
     list-style: none;
 }
 
@@ -34,14 +36,14 @@ body {
 }
 
 .lilili {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 #bouton_nul {
     border: none;
     background-color: rgb(251, 105, 98);
     transition: 1s;
-    padding: 30%;
+    padding: 20px 50px;
 }
 
 #bouton_nul:hover {
@@ -54,6 +56,9 @@ body {
 }
 
 /* Main */
+main{
+    width: 100%;
+}
 .section {
     margin: 0% 25%;
     padding-top: 296px;
@@ -73,12 +78,23 @@ body {
 
 /* Footer */
 footer {
-    background-image: url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage16.jpg");
+    background-image: linear-gradient(180deg,rgba(45,45,45,0.91) 0%,rgba(45,45,45,0.98) 100%),url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage16.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
 }
 
 #fin_page {
     display: flex;
-    margin: 10%;
+    justify-content: center;
+}
+.ulbas{
+    margin:0 3%;
+}
+#barrebas{
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
 }
 
 /* Additional Changes */
@@ -91,9 +107,6 @@ footer {
     color: rgb(74, 234, 220);
 }
 
-#barre_blanc {
-    background-color: white;
-}
 
 /* Custom Colors */
 .gris_nul {
