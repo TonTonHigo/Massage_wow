@@ -19,28 +19,30 @@ body{
 }
 #menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+#lienhead{
+    display: flex;
     align-items: center;
     list-style: none;
-
 }
 #logo{
     width: 200px;
 }
-.lienmenu{
-    margin-left: 5%;
-    
-}
+
 .lien_nul{
     color: #abb8c3;
     text-decoration: none;
+}
 
+.lilili{
+    margin-left: 20px;
 }
 
 #bouton_nul{
     border: none;
     background-color: rgb(251,105,98);
-    padding: 20%;
     transition: 1s;
 }
 #bouton_nul:hover{
@@ -51,6 +53,10 @@ body{
     width: 100%;
     height: 1px;
     background-color: #abb8c3;
+}
+#barre_blanc{
+    width: 100%;
+    height: 1px;
 }
 
 
@@ -78,9 +84,4 @@ footer{
 #fin_page{
     display: flex;
     margin: 10%;
-}
-
-#barre_blanc{
-    width: 100%;
-    height: 2px;
 }

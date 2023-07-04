@@ -16,11 +16,13 @@
     <header id="header_nul">
         <nav id="menu">
             <li class="lienmenu"><a class="lien_nul" href="#"><img id="logo" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/04/massage_logo_header-1.png"></a></li>
-            <li class="lienmenu"><a class="lien_nul" href="#"> HOMEPAGE  </a></li>
-            <li class="lienmenu"><a class="lien_nul" href="#">ABOUT US   </a></li>
-            <li class="lienmenu"><a class="lien_nul" href="#"> PAGES & PROJECTS  </a></li>
-            <li class="lienmenu"><a class="lien_nul" href="#"> BLOG  </a></li>
-            <li class="lienmenu"> <button id="bouton_nul"> CONTACT </button>  </li>
+            <div id="lienhead">
+                <li class="lilili"><a class="lien_nul" href="#"> HOMEPAGE v </a></li>
+                <li class="lilili"><a class="lien_nul" href="#">ABOUT US  v </a></li>
+                <li class="lilili"><a class="lien_nul" href="#"> PAGES & PROJECTS v </a></li>
+                <li class="lilili"><a class="lien_nul" href="#"> BLOG v </a></li>
+                <li class="lilili"> <button id="bouton_nul"> CONTACT</button>  </li>
+            </div>
         </nav>
         <div id="headbar"></div>
     </header>
@@ -29,18 +31,10 @@
     <section id="sect1" >
         <div class="section">
             <!-- WELCOME IN BEAUTY PARADISE -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsam consectetur, fugit, dolorem tenetur quia adipisci doloremque reprehenderit, unde ut porro rerum molestias atque quidem eos ducimus qui perspiciatis! Impedit.</p>
+            <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon05.png" alt="">
+            <h1>WELCOME <br>
+             IN BEAUTY PARADISE</h1>
+             <p></p>
         </div>
     </section>
 
