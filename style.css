@@ -2,15 +2,19 @@ html,body {
     margin: 0;
     background-color: #F6F7F9;
     font-family: 'Montserrat', sans-serif;
+    color: #000000;
 }
 
 /* Header */
-#header_nul {
+header {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s ease-in-out;
 }
-
+header.scrolled{
+    background-color: #2F2E2D;
+}
 #menu {
     display: flex;
     justify-content: space-between;
@@ -58,7 +62,33 @@ html,body {
 }
 
 
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+}
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu li{
+    margin-bottom: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 
 
@@ -74,6 +104,34 @@ html,body {
 main{
     width: 100%;
 }
+#divbulle {
+    display: flex;
+    justify-content: center;
+}
+
+#bulle {
+position: relative;
+background-color: white;
+margin-top: -50px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+box-shadow: 0px 12px 80px -6px rgba(0, 0, 0, 0.05);
+transition: transform 0.4s ease;
+}
+
+#divbulle #bulle:hover {
+transform: translateY(-10px);
+}
+
+#bulle i {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #000000;
+}
+  
 .section {
     margin: 0% 10%;
     padding-top: 296px;
@@ -83,7 +141,13 @@ main{
     color: white;
     padding: 15px 30px;
     background-color: #00a395;
+    transition: .4s;
     border: none;
+}
+.section button:hover{
+    background-color: transparent;
+    border: 1px solid  #00a395;
+    color:  #00a395;
 }
 .section p{
     color: rgba(255,255,255,0.54);
@@ -100,11 +164,64 @@ main{
 #sect1 {
     background-image: linear-gradient(93deg, #2F2E2D 24%, rgba(41, 196, 169, 0) 100%), url("https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage26.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
 }
+#services{
+    margin-top: 150px;
+    text-align: center;
+}
+#txt{
+    font-size: 25px;
+}
+#txt2{
+    font-size: 16px;
+}
+.txt3{
+    font-size: 14px;
+}
+#services h2{
+    font-size: 40px;
+}
+#barrerose{
+    margin: auto;
+   width: 100px;
+   height: 23px; 
+   border-top: 1px solid #F7A292;
+}
+#ourservices{
+    display: flex;
+}
 
+#massage{
+    font-weight: 300;
+    letter-spacing: 1px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.51) 100%),url(https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage12.jpg);
+    padding-top: 280px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+#manu{
+    font-weight: 300;
+    letter-spacing: 1px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.51) 100%),url(https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage33.jpg);
+    padding-top: 280px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+#makeup{
+    font-weight: 300;
+    letter-spacing: 1px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.51) 100%),url(https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/massage32.jpg);
+    padding-top: 280px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
 
 
 
@@ -147,7 +264,18 @@ footer {
 }
 .ulbas li{
     margin-bottom: 10px;
-
+}
+.ulbas li a i{
+    color: transparent;
+    transition: color 0.5s ease;
+}
+.ulbas li a:hover i{
+    color: rgba(255,255,255,0.54);
+    transition: 1s;
+}
+.ulbas li a:hover{
+    margin-left: 5px;
+    transition: margin-left 0.5s ease;
 }
 .ulbas a{
     text-decoration: none;
@@ -163,13 +291,46 @@ footer {
     align-items: center;
 }
 #marginbot{
-    margin: 0 10%;
+    margin: 0 23%;
+}
+.inputbas{
+    background-color: transparent;
+    border-width: 1px;
+    padding: 14px 11px;
+    border-color: rgba(255,255,255,0.71);
+}
+#submitbas{
+    background-color: #F7A292;
+    padding: 14px 11px;
+    width: 100%;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+#submitbas:hover{
+    background-color: rgb(74, 234, 220);
 }
 #trademark{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: rgba(255,255,255,0.54);
+    line-height: 0.7;
+    margin-top: 25px;
+}
+#trademark p{
+    margin-top: 0;
+}
+
+#iconenbas a{
+    margin-right: 8px;
+    padding: 5px;
+    border: 1px solid white;
+}
+#iconenbas i{
+    width: 44px;
+    height: 44px;
+    text-align: center;
 }
 
 
@@ -189,20 +350,6 @@ footer {
 
 .lien_nul:hover {
     color: rgb(74, 234, 220);
-}
-
-
-/* Custom Colors */
-.gris_nul {
-    color: #abb8c3;
-}
-
-.orange_nul {
-    background-color: rgb(251, 105, 98);
-}
-
-.bleu_chiasse {
-    background-color: rgb(74, 234, 220);
 }
 
 
