@@ -54,7 +54,7 @@
                 <!-- WELCOME IN BEAUTY PARADISE -->
                 <img src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon05.png" alt="" id="logo2">
                 <h1 id="titre">WELCOME <br>
-                IN BEAUTY PARADISE</h1>
+                <strong>IN BEAUTY PARADISE</strong></h1>
                 <p>In publishing and graphic design, lorem <br>
                 ipsum is common to cry</p>
                 <button>BOOK A MASSAGE</button>
@@ -252,48 +252,67 @@
     
 
     <footer>
-        <div>
-            <div id="fin_page">
-    
-                <ul class="ulbas">
-                    <li><h3>MASSAGE TYPES</h3></li>
-                    <li><a href="">Sport Massage</a></li>
-                    <li><a href="">Baby Massage</a></li>
-                    <li><a href="">Thai Massage</a></li>
-                    <li><a href="">Classic Massage</a></li>
-                    <li><a href="">Physiotherapy</a></li>
-                    <li><a href="">Physiotherapy</a></li>       
-                </ul>
-    
-                <ul class="ulbas">
-                    <li><h3>ABOUT US</h3></li>
-                    <li><a href="">Our Masseurs</a></li>
-                    <li><a href=""> Our Clients</a></li>
-                    <li><a href="">Our Values</a></li>
-                    <li><a href="">Photogallery</a></li>
-                    <li><a href="">Our Philosophy</a></li>
-                    <li><a href="">Our 2020 Goals</a></li>   
-                </ul>
-    
-                <ul class="ulbas">
-                    <li><h3>CONTACT US</h3></li>
-                    <li><p>+49 8568 523 525</p><p>+43 8568 856 235</p></li>
-                    <li><p>info@massage.com</p><p>hello@myspa.de</p></li>
-                    <li><p>info@massage.com</p><p>helo@myspa.de</p></li>                  
-                </ul>
-    
-                <ul class="ulbas">
-                    <li><h3>SUBSCRIBE</h3></li>
-                    <li><input type="text" placeholder="NAME"></li>
-                    <li><input type="email" placeholder="EMAIL"></li>
-                    <li><input type="submit" placeholder="SUBSCRIBE"></li>             
-                </ul>
-                
-            </div>
-        </div>
+            <div id="marginbot">
+                <div id="fin_page">                
+                    <ul class="ulbas">
+                        <li><h3>MASSAGE TYPES</h3></li>
+                        <li><a href="">Sport Massage <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Baby Massage <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Thai Massage <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Classic Massage <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Physiotherapy <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Physiotherapy <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>       
+                    </ul>
         
-        <div id="barrebas">
-        </div>
+                    <ul class="ulbas">
+                        <li><h3>ABOUT US</h3></li>
+                        <li><a href="">Our Masseurs <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href=""> Our Clients <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Our Values <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Photogallery <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Our Philosophy <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>
+                        <li><a href="">Our 2020 Goals <i class="fa-solid fa-arrow-right-long" style="color: transparent;"></i></a></li>   
+                    </ul>
+        
+                    <ul class="ulbas">
+                        <li><h3>CONTACT US</h3></li>
+                        <li class="contacts"><img class="logobas" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon11.png" alt=""><p>+49 8568 523 525 <br>
+                            +43 8568 856 235</p></li>
+                        <li class="contacts"><img class="logobas" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon07.png" alt=""><p>info@massage.com <br>
+                            hello@myspa.de</p></li>
+                        <li class="contacts"><img class="logobas" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/02/icon09.png" alt=""><p>info@massage.com <br>
+                            helo@myspa.de</p></li>                  
+                    </ul>
+        
+                    <ul class="ulbas">
+                        <li><h3>SUBSCRIBE</h3></li>
+                        <li><input type="text" placeholder="NAME"></li>
+                        <li><input type="email" placeholder="EMAIL"></li>
+                        <li><input type="submit" placeholder="SUBSCRIBE"></li>             
+                    </ul>
+                </div>
+
+                <div id="trademark">
+                    <!-- Copyright -->
+                    <div>
+                        <p>Copyright Massage Humburg</p>
+                        <p>Created by an awesome web agency</p>
+                    </div>
+                    <!-- logo Réseaux Sociaux -->
+                    <div>
+                    <i class="fa-brands fa-lg fa-facebook-f" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-lg fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-lg fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-lg fa-youtube" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        
+        
 
     </footer>
 
