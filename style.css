@@ -283,8 +283,48 @@ color: #000000;
     text-align: left;
     margin-top: 100px;
 }
+#our_salon p{
+    font-size: 25px;
+}
+#our_salon h2{
+    font-size: 40px;
+}
 #why_choose{
     display: flex;
+    justify-content: center;
+}
+#why_choose img{
+    width: 400px;
+}
+#why_salon{
+    display: flex;
+}
+#why_salon ul{
+    margin-right: 30px;
+}
+#why_salon div{
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+}
+#why_salon li{
+   list-style: none;
+   font-size: 18px;
+   margin-left: 15px;
+}
+.why_check{
+    display: flex;
+    align-items: center;
+}
+.why_check i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #f7a191;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 #le_barre_le_rose{
@@ -376,20 +416,40 @@ color: #000000;
 }
 
 
-#our_blog_box{
+
+#our_blog{
+    text-align: center;
     padding-top: 100px;
 }
-#our_blog{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#our_blog p{
+    font-size: 25px;
+}
+#our_blog h2{
+    font-size: 40px;
+}
+#our_blog div{
+   margin: auto;
 }
 
-#awsome_wow{
+#awesome_title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#awesome_title p{
+    font-size: 25px;
+}
+#awesome_title h2{
+    font-size: 40px;
+}
+#awesome_title div{
+   margin: auto;
+}
+#awesome_wow{
     display: flex;
+    justify-content: center;
     padding-bottom: 100px;
 }
-#awsome_wow img{
+#awesome_wow img{
     width: 200px;
 }
 .rond_fond{ 
@@ -419,6 +479,35 @@ color: #000000;
     background-image: linear-gradient(180deg, rgba(43, 135, 218, 0) 50%, #ffffff 71%);
     border-radius: 50%;
 }
+
+.awesome_carte{
+   margin-right: 70px; 
+   text-align: center;
+}
+.awesome_nom{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.awesome_link{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.awesome_link li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #f7a191;
+    margin-right: 8px;
+
+}
+.awesome_link i{
+    color: white;
+}
+
   
 
 
