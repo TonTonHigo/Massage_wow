@@ -1,6 +1,6 @@
 html,body {
     margin: 0;
-    background-color: #F6F7F9;
+    background-color: #F9F9F9;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
 }
@@ -14,6 +14,7 @@ header {
 }
 header.scrolled{
     background-color: #2F2E2D;
+    z-index: 1;
 }
 #menu {
     display: flex;
@@ -223,8 +224,59 @@ color: #000000;
     padding-left: 30px;
 }
 
+#blog_tease{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
 
+}
+.cartes{
+    text-align: center;
+    margin-right: 30px;
+    border: 10px solid white;
+    background-color: white;
+}
+.cartes h2 a{
+    color: black;
+    font-size: 18px;
+}
+.cartes a{
+    text-decoration: none;
+}
+.cartes button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    background-color: #F7A292;
+}
+.richard{
+    color: #F7A292;
+}
 
+.carteimg{
+    width: 400px;
+}
+
+#artcenter{
+    text-align: left;
+    margin: 0 20%;
+}
+#artcenter img{
+    border: 10px solid white;
+}
+
+#boxcrud{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+.formcrud{
+    display: flex;
+    flex-direction: column;
+}
+.formcrud input{
+    margin-bottom: 10px;
+}
 
 
 
