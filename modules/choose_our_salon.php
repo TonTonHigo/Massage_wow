@@ -1,8 +1,8 @@
  <!-- what makes us unique WHY TO CHOOSE OUR SALON -->
- <div>
+ <div id="our_salon">
                 <p>what makes us unique</p>
                 <h2>WHY CHOOSE OUR SALON</h2>
-                <div>
+                <div id="why_choose">
                     <ul>
                         <li>Lorem Ipsum Dolor</li>
                         <li>Lorem Ipsum Dolor</li>

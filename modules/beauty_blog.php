@@ -1,11 +1,12 @@
 
             <!-- magazine OUR BEUATY BLOG 3 cartes -->
-            <div>
-                <p>magazine</p>
-                <h2>OUR BEUATY BLOG</h2>
-                <!-- barre rose -->
-                <div></div>
-
+            <div id="our_blog_box">
+                <div id="our_blog">
+                    <p>magazine</p>
+                    <h2>OUR BEAUTY BLOG</h2>
+                    <!-- barre rose -->
+                    <div class="trait"></div>
+                </div>
                 <div id="blog_tease">
 
                     <div class="cartes">

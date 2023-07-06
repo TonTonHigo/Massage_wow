@@ -1,8 +1,9 @@
 <!-- HEADER avec nav dedans -->
 <header id="header_nul">
         <nav id="menu">
+
             <ul>
-                <li class="lienmenu"><a class="lien_nul lilili" href="#"><img id="logo" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/04/massage_logo_header-1.png"></a></li>
+                <li class="lienmenu"><a class="lien_nul lilili" href="index.php"><img id="logo" src="https://massage-theme.richardpruzek.com/wp-content/uploads/2020/04/massage_logo_header-1.png"></a></li>
             </ul>
             <ul id="lienhead">
 
@@ -15,6 +16,8 @@
                         <li><a href="index.php">HOMEPAGE 3</a></li>
                     </ul>
                 </li>
+
+
                 <li class="dropdown">
                     <a class="lien_nul lilili" href="#">ABOUT US <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
                     <ul class="dropdown-menu">
@@ -24,6 +27,7 @@
                     </ul>
 
                 </li>
+
                 <li class="dropdown">
                     <a class="lien_nul lilili" href="#"> PAGES & PROJECTS <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
                     <ul class="dropdown-menu">
@@ -39,6 +43,7 @@
                     </ul>
 
                 </li>
+                
                 <li class="dropdown">
                     <a class="lien_nul lilili" href="#"> BLOG <i class="fa-solid fa-chevron-down fa-2xs" style="color: #abb8c3;"></i> </a>
                     <ul class="dropdown-menu">

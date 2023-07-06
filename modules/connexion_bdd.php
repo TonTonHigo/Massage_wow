@@ -79,7 +79,7 @@ class ma_connexion{
     public function insert_articles($titre, $resume, $titre_2 , $contenu, $titre_3, $contenu_2, $photo, $date_post, $auteur){
         try {
 
-            $insertion = "INSERT INTO  `articles`(titre, resume, titre_2 , contenu, titre_3, contenu_2, photo, date_post, auteur) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            $insertion = "INSERT INTO  `articles`(titre, resume, titre_2 , contenu, titre_3, contenu_2, photo, date_post, auteur) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
             $requete = $this -> connexionPDO -> prepare($insertion);
             $requete->bindValue(1, $titre);
@@ -154,11 +154,11 @@ class ma_connexion{
 
 }
 
-// $test = new ma_connexion("localhost", "massage", "root", "");
+ //$test = new ma_connexion("localhost", "massage", "root", "");
 // $users = $test -> select("*","users");
 
 // var_dump($articles = $test -> select("*","articles"));
-// $test -> insert_client("bob","maurice","mauricien@gmail.com");
+ //$test -> insert_articles("titre", "resume", "titre_2" , "contenu", "titre_3", "contenu_2", "photo", "1960-08-14", "oof");
 // $test -> update_client("2","hampter","antartique","hampter@gmail.com");
 // $test -> delete_client("5");
 

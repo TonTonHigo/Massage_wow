@@ -234,6 +234,7 @@ color: #000000;
     text-align: center;
     margin-right: 30px;
     border: 10px solid white;
+    box-shadow: 0px 2px 80px 0px rgba(0,0,0,0.08);
     background-color: white;
 }
 .cartes h2 a{
@@ -278,10 +279,147 @@ color: #000000;
     margin-bottom: 10px;
 }
 
+#our_salon{
+    text-align: left;
+    margin-top: 100px;
+}
+#why_choose{
+    display: flex;
+}
+
+#le_barre_le_rose{
+    background-color: #f7a191;
+    padding: 30px 0;
+}
+#contenu_barre_le_rose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+
+}
+#contenu_barre_le_rose h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+#contenu_barre_le_rose button{
+    border: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 17px 30px;
+}
+#contenu_barre_le_rose a{
+    text-decoration: none;
+    color: black;
+}
+
+#int_mass_stud{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#int_mass_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 104px;
+}
+#int_mass_txt p{
+    letter-spacing: 1px;
+
+}
+#int_mass_stud img{
+    border: 10px solid white;
+    width: 550px;
+    box-shadow: 0px 2px 80px 0px rgba(0,0,0,0.08);
+}
+.trait{
+    border-top: 1px solid #f7a191;
+    width: 100px;
+    height: 23px;
+}
+
+#cartes_cinq{
+    margin: 0 10%;
+    padding-top: 100px;
+    display: flex;
+}
+.cartes_petite{
+    text-align: center;
+    border: 10px solid white;
+    background-color: white;
+}
+.cartes_petite img{
+    width: 70px;
+}
+
+#deserve{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#deserve p{
+    letter-spacing: 1px;
+
+}
+#deserve_time{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 104px;
+}
+#deserve img{
+    border: 10px solid white;
+    width: 550px;
+    box-shadow: 0px 2px 80px 0px rgba(0,0,0,0.08);
+}
 
 
+#our_blog_box{
+    padding-top: 100px;
+}
+#our_blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+#awsome_wow{
+    display: flex;
+    padding-bottom: 100px;
+}
+#awsome_wow img{
+    width: 200px;
+}
+.rond_fond{ 
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 2px 80px 0px rgba(0,0,0,0.08);
+    overflow: hidden;
 
+}
+
+.filtre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(43, 135, 218, 0) 50%, #ffffff 71%);
+    border-radius: 50%;
+}
+  
 
 
 
@@ -329,6 +467,7 @@ footer {
     margin-left: 5px;
     transition: margin-left 0.5s ease;
 }
+
 .ulbas a{
     text-decoration: none;
     color: rgba(255,255,255,0.54);

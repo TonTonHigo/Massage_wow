@@ -56,7 +56,7 @@
             <h1>UPDATE UN ARTICLE</h1>
 
             <label for="id_articles">ID</label>
-            <input name="id_articles" type="text">
+            <input name="id_articles" type="number">
 
             <label for="titre">Titre</label>
             <input name="titre" type="text">
@@ -93,8 +93,8 @@
 
             <h1>DELETE UN ARTICLE</h1>
 
-            <label for="id">ID</label>
-            <input name="id" type="text">
+            <label for="id_articles">ID</label>
+            <input name="id_articles" type="number">
 
             <button type="submit">DELETE</button>
         </form>

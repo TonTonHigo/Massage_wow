@@ -1,7 +1,9 @@
 <!-- barre rose nul -->
-<div>
-                <div>
-                    <h2>Book a Massage Today!</h2>
-                    <button>BOOK A MASSAGE TODAY</button>
-                </div>
-            </div>
+<div id="le_barre_le_rose">
+    <div id="contenu_barre_le_rose">
+        <h2>Book a Massage Today!</h2>
+        <div>
+            <button><a href="">BOOK A MASSAGE TODAY</a></button>
+        </div>
+    </div>
+</div>
