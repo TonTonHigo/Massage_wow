@@ -62,10 +62,10 @@
                 </div>
                 <!-- logo Réseaux Sociaux -->
                 <div id="iconenbas">
-                    <a href=""><i class="fa-brands fa-lg fa-facebook-f" style="color: #ffffff;"></i></a>
-                    <a><i class="fa-brands fa-lg fa-twitter" style="color: #ffffff;"></i></a>
-                    <a><i class="fa-brands fa-lg fa-instagram" style="color: #ffffff;"></i></a>
-                    <a><i class="fa-brands fa-lg fa-youtube" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-brands fa-lg fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-lg fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-lg fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-lg fa-youtube"></i></a>
                 </div>
             </div>
 

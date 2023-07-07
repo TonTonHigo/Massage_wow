@@ -49,7 +49,6 @@
                     <ul class="dropdown-menu">
                         <!-- Dropdown menu content for HOMEPAGE -->
                         <li><a href="blog.php">BLOG PAGE</a></li>
-                        <li><a href="article.php">ARTICLES</a></li>
                         <li><a href="crud.php">AJOUT ARTICLE</a></li>
                         <li><a href="crud.php">MISE À JOUR</a></li>
                         <li><a href="crud.php">DELETE</a></li>

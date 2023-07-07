@@ -154,7 +154,7 @@ class ma_connexion{
 
 }
 
- //$test = new ma_connexion("localhost", "massage", "root", "");
+//$test = new ma_connexion("localhost", "massage", "root", "");
 // $users = $test -> select("*","users");
 
 // var_dump($articles = $test -> select("*","articles"));
