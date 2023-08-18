@@ -61,6 +61,6 @@
                 </li>
 
             </ul>
-
         </nav>
+        <i id="menuburger" class="fa-solid fa-bars fa-2xl" style="color: #FFFFFF;"></i>
     </header>

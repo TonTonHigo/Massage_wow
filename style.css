@@ -672,4 +672,23 @@ footer {
 
 
 
-/* section 2 */
+/* Responsive */
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    /* Adjust styles for tablets and smaller screens here */
+    /* You can override or modify existing styles as needed */
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    #menu{
+        display: none;
+    }
+    #menuburger{
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+}

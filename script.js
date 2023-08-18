@@ -6,3 +6,7 @@ document.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
+
+$(document).ready(function(){
+    $('#menuburger').hide();
+});
